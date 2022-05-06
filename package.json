@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-ts",
+  "version": "1.0.0",
+  "description": "Projeto em NodeJS utilizando TS",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassioate/NodeJs-TS.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Cássio Tessaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cassioate/NodeJs-TS/issues"
+  },
+  "homepage": "https://github.com/cassioate/NodeJs-TS#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^17.0.31",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
